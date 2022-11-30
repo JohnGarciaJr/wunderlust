@@ -124,5 +124,42 @@
           </svg>
         <figcaption>Population: 923,608</figcaption>
     </section>
+    <section id="contactForm">
+        <h2>Contact Us</h2>
+        <form action="/action_page.php">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <input type="radio" id="methodEmail" name="methodEmail" value="Email" required>
+                <label for="methodEmail">Email</label>
+                <input type="radio" id="methodPhone" name="methodPhone" value="Phone" required>
+                <label for="methodPhone">Phone</label>
+            </fieldset>
+            <label for="selectDestination">Destination</label>
+            <option value="barcelona">Barcelona</option>
+            <option value="granada">Granada</option>
+            <option value="ibiza">Ibiza</option>
+            <option value="madrid">Madrid</option>
+            <option value="majorcac">Majorca</option>
+            <option value="seville">Seville</option>
+            <option value="tenerife">Tenerife</option>
+            <option value="valencia">Valencia</option>
+            <label for="travelTime">Travel Time</label>
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <optin  value="flexible">Flexible</optin>
+            <input type="submit" value="Submit">  
+        </form>
+    </section>
 </body>
+<footer>
+    <p>&copy; 2021 Wunderlust</p>
+    <p>Privacy Statement</p>
+    <p>Terms of Service</p>
+</footer>
 </html>
